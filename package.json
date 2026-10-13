@@ -1,0 +1,16 @@
+{
+  "name": "ci-cd-hardhat-automation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Automated Hardhat smart-contract deployment via GitHub Actions",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:local": "hardhat run scripts/deploy.js --network hardhat"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "chai": "^4.5.0",
+    "hardhat": "^2.22.17"
+  }
+}
