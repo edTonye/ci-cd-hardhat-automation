@@ -1,3 +1,5 @@
+> Looking for static analysis? See [solidity-guard](https://github.com/edTonye/solidity-guard), which scans Solidity contracts for common security patterns before deployment.
+
 # CI/CD Hardhat Automation 🛠️
 
 Demo project for automated deployment of smart contracts using GitHub Actions and Hardhat.
